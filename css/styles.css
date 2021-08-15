@@ -1,0 +1,116 @@
+/* цвет основного текста №000000 */
+/* цвет заголовков #212121 */
+/* цвет вторичного текста #757575 */
+/*белый №FFFFFF*/
+/*акцент #2196F3*/
+
+:root{
+    --primary-text-color: #757575;
+    --accent-color: #2196F3;
+}
+
+body{
+    background-color: #FFFFFF;
+    color: var(--primary-text-color);
+    font-family: Roboto;
+}
+
+.list{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.site-nav .link{
+    color: #212121;
+}
+
+.logo{
+    color: #000000;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+}
+
+.link-contacts{
+    color: var(--primary-text-color);
+}
+
+.link-contacts:hover, 
+.link-contacts:focus{
+    color: var(--accent-color);
+}
+
+/* Heroy*/
+
+.heroy{
+    background-color: #2F303A;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+        color: #FFFFFF;
+}
+
+.heroy .button{
+    color: #FFFFFF;
+    background-color: var(--accent-color) ;
+    cursor: pointer;
+    }
+
+
+.peculiarities-list .title{
+    color: #212121;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.33px;
+    letter-spacing: 0.03em;
+}
+
+.peculiarities-list-text{
+    color: #757575;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.section-name{
+    color: #212121;    
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;  
+}
+
+.worker-name{
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18x;
+    letter-spacing: 0.03em;    
+}
+
+.worker-position{
+    color: #757575;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.18;    
+    letter-spacing: 0.03em;    
+}
+
