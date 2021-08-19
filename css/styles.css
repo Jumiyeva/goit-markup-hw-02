@@ -23,6 +23,26 @@ body{
     text-decoration: none;
 }
 
+.header .web{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.header .web-studio{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
 .site-nav .link{
     color: #212121;
 }
@@ -70,6 +90,12 @@ body{
     background-color: var(--accent-color) ;
     cursor: pointer;
     }
+
+.filter .button{
+    color: #FFFFFF;
+    background-color: var(--accent-color) ;
+    cursor: pointer;
+}
 
 
 .peculiarities-list .title{
