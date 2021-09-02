@@ -43,6 +43,16 @@ body{
     color: #000000;
 }
 
+.header .menu{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
 .site-nav .link{
     color: #212121;
 }
@@ -68,6 +78,12 @@ body{
 
 .link-contacts{
     color: var(--primary-text-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .link-contacts:hover, 
@@ -75,21 +91,43 @@ body{
     color: var(--accent-color);
 }
 
+.link-menu:hover,
+.link-menu:focus{
+    color: var(--accent-color);
+}
+
 /* Heroy*/
 
 .heroy{
     background-color: #2F303A;
+}
+
+.heroy-name{
+    font-family: Roboto;
+    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-        color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 .heroy .button{
     color: #FFFFFF;
     background-color: var(--accent-color) ;
     cursor: pointer;
-    }
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+      }
 
 .filter .button{
     color: #FFFFFF;
@@ -139,4 +177,68 @@ body{
     line-height: 1.18;    
     letter-spacing: 0.03em;    
 }
+/*footer*/
+.footer .web{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
 
+.footer{
+    background: #2F303A;
+}
+
+.footer .web-studio{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.footer .footer-link{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.footer-item{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/*PORTFOLIO*/
+
+.project-name{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.project-type{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
