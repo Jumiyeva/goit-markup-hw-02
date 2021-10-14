@@ -30,7 +30,7 @@ body{
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .header .web-studio{
@@ -177,7 +177,7 @@ body{
     line-height: 1.18;    
     letter-spacing: 0.03em;    
 }
-/*footer*/
+/* /* footer */
 .footer .web{
     font-family: Raleway;
     font-style: normal;
@@ -185,7 +185,7 @@ body{
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .footer{
