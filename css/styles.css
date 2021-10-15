@@ -22,11 +22,11 @@ body{
 .link{
     text-decoration: none;
 }
-
+/*----------- header---------- */
 .header .web{
     font-family: Raleway;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -36,7 +36,7 @@ body{
 .header .web-studio{
     font-family: Raleway;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -44,8 +44,6 @@ body{
 }
 
 .header .menu{
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -61,7 +59,7 @@ body{
     color: #000000;
     font-family: Raleway;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -78,8 +76,6 @@ body{
 
 .link-contacts{
     color: var(--primary-text-color);
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -96,15 +92,13 @@ body{
     color: var(--accent-color);
 }
 
-/* Heroy*/
+/* --------Heroy-------------*/
 
 .heroy{
     background-color: #2F303A;
 }
 
 .heroy-name{
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -118,16 +112,14 @@ body{
     color: #FFFFFF;
     background-color: var(--accent-color) ;
     cursor: pointer;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-      }
+}
 
 .filter .button{
     color: #FFFFFF;
@@ -138,9 +130,9 @@ body{
 
 .peculiarities-list .title{
     color: #212121;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 14px;
-    line-height: 1.33px;
+    line-height: 1.33
     letter-spacing: 0.03em;
 }
 
@@ -154,7 +146,7 @@ body{
 
 .section-name{
     color: #212121;    
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;  
@@ -164,15 +156,12 @@ body{
     color: #212121;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.18x;
+    line-height: 1.18;
     letter-spacing: 0.03em;    
 }
 
 .worker-position{
     color: #757575;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 1.18;    
     letter-spacing: 0.03em;    
@@ -181,7 +170,7 @@ body{
 .footer .web{
     font-family: Raleway;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -195,7 +184,7 @@ body{
 .footer .web-studio{
     font-family: Raleway;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -203,18 +192,12 @@ body{
 }
 
 .footer .footer-link{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 .footer-item{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -224,9 +207,7 @@ body{
 /*PORTFOLIO*/
 
 .project-name{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -234,11 +215,22 @@ body{
 }
 
 .project-type{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: #757575;
+}
+
+.filter-btn{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.filter-btn:hover,
+.filter-btn:focus{
+    background-color: var(--accent-color);
 }
